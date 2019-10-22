@@ -1,0 +1,18 @@
+Matt Conforti
+Project 1 Report
+
+	In this project, the data suggests that when running this program a large number of times, all nodes eventually have about the same response rate. This is apparent because all values in the array begin to average out and get closer to each other as time passes, especially if you increase the number of times this process is done. This is especially apparent when using all 13 nodes (a combination of nodes that are close to the head and nodes that are far away). However, in this case, when using all nodes, something is fairly consistent about the first node to respond.
+
+	By taking a quick look at the end result of the array, it is evident that the first node to respond is more often than not close to the head node ( such as baby nodes 0-0 and 0-1 ) because there is a consistency through multiple runs that the first spot in the array ( the 1st node to respond ) contains a number that is lesser (on average less by about 10,000) than the rest of the numbers in the array. Therefore, the 1st node to respond is often close to the head node rather than far away from it. Consequently, the last node to respond is sometimes found to be nodes further away, because it is a slightly higher number than the rest of the array values. But, this observation becomes even more clear when using a different set of nodes.
+
+	When using less nodes, say baby nodes 0-0 and 0-1, it is almost always the case that 0-0 responds first, and 0-1 responds second. This can be seen in the data, in that the first value in the array is always far less (about 10,000 less) than the second. So although over many runs using many nodes it can be seen that nodes will eventually respond in about the same time, when using less nodes it is always the case that the node closest to the head will respond faster on average than any others.
+
+	In conclusion, the more nodes you use and the more times you run the program, the more evident it becomes that all nodes will eventually average about the same response rate. However, with less nodes, it becomes increasingly apparent that nodes closer to the head often respond quicker than nodes that are far away from the head. This is done with almost 100% consistency when using a max of 3 processors. Once more than 3 or 4 processors are used however, these findings become less consistent, the response times begin to become more random and over time, they average out.
+
+
+
+
+
+
+
+   
